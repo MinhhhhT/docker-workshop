@@ -11,4 +11,15 @@ df['month'] = month
 
 print(f'Running pipelilne for month {month}')
 
+
+
+
+
+
+
+
+
+
+
+
 df.to_parquet(f"output_month{month}.parquet")
